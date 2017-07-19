@@ -19,7 +19,7 @@ public class Spiral {
 			// (5*i)
 			Jack.move(5 * i);
 			// 2. Turn the robot 1/3 of 360 degrees to the right
-			Jack.turn(360 / 25);
+			Jack.turn(360 / 2);
 			// 8. Change the number of sides to 7 (don’t add a new line of code
 			// for this one!)
 
