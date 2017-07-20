@@ -9,7 +9,7 @@ public class StephenHawking {
 
 		// 2. ask the user for a sentence
 
-		for (int Ans1 = 0; Ans1 < 10; Ans1++) {
+		for (int Ans1 = 0; Ans1 < 25; Ans1++) {
 			String Ans = JOptionPane.showInputDialog("type a sentence");
 			// 3. call the speak method below and send it the sentence
 			speak(Ans);
