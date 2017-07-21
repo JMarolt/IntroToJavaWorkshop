@@ -16,7 +16,12 @@ import javax.swing.JOptionPane;
 			// 11. do the following 10 times
 			
 				// 1. ask the user for a guess using a pop-up window, and save their response 
-JOptionPane.showInputDialog("Pick a number from 1 to a 1000");
+String Ans = JOptionPane.showInputDialog("Pick a number from 1 to a 1000");
+int number = Integer.parseInt(Ans);
+if(Ans.equals("")) {
+	JOptionPane.showMessageDialog(null, "Correct!");
+}else{
+}
 				// 4. convert the users’ answer to an int (Integer.parseInt(string))
 				
 				// 5. if the guess is correct
